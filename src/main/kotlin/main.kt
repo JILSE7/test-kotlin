@@ -11,6 +11,8 @@ fun main() {
 
     println(pi)
     println(result)
-}
+    println(getPi(2))
 
-fun getPi () = pi
+}
+//ALJ + J -> SELECCIONA LA MISMA PALABRA
+fun getPi (power:Int = 1) = pi * power
