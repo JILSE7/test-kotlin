@@ -11,6 +11,8 @@ fun main() {
 
     println(pi)
     println(result)
+
+    println("JAJAJA")
     println(getPi(2))
 
 }
