@@ -9,7 +9,7 @@ fun main() {
     println(result)
 
     println(pi)
-
+    println(result)
 }
 
 fun getPi () = pi
