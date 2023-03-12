@@ -13,6 +13,8 @@ fun main() {
     println(result)
 
     println("JAJAJA")
-}
+    println(getPi(2))
 
-fun getPi () = pi
+}
+//ALJ + J -> SELECCIONA LA MISMA PALABRA
+fun getPi (power:Int = 1) = pi * power
