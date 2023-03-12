@@ -10,6 +10,8 @@ fun main() {
 
     println(pi)
     println(result)
+
+    println("JAJAJA")
 }
 
 fun getPi () = pi
