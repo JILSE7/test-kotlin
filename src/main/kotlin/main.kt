@@ -1,3 +1,5 @@
+const val pi = 3.1416f
+
 fun main() {
     println("Hola cara de bola")
     val a = 5
@@ -5,4 +7,9 @@ fun main() {
 
     val result = a + b
     println(result)
+
+    println(pi)
+
 }
+
+fun getPi () = pi
