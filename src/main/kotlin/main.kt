@@ -13,6 +13,9 @@ fun main() {
     println(result)
 
     println("JAJAJA")
+
+    val presentarse: (Int, String) -> String = {name, age -> "Me llamo $name y tengo $age años"}
 }
 
 fun getPi () = pi
+
