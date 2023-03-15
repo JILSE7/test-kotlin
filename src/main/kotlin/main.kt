@@ -13,9 +13,10 @@ fun main() {
     println(result)
 
     println("JAJAJA")
+    println(getPi(2))
+
 
     val presentarse: (Int, String) -> String = {name, age -> "Me llamo $name y tengo $age años"}
 }
-
-fun getPi () = pi
-
+//ALJ + J -> SELECCIONA LA MISMA PALABRA
+fun getPi (power:Int = 1) = pi * power
